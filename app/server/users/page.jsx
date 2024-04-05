@@ -7,7 +7,9 @@ const UserPage = async () => {
     <div>
       <h1>Users (Server Side Rendering)</h1>
       {data.users.map((user) => (
-        <li key={user.id}>{user.firstName}</li>
+        <Link key={user.id} href={`/server/users/${user.id}`}>
+          <li>{user.firstName}</li>
+        </Link>
       ))}
     </div>
   );
