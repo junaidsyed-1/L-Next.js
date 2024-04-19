@@ -17,7 +17,7 @@ export default function Docs({ params }) {
   }
   return (
     <div>
-      <h1>Welcome to Docs</h1>
+      <h1>Welcome to Docs.</h1>
     </div>
   );
 }
