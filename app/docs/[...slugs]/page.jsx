@@ -15,7 +15,6 @@ export default function Docs({ params }) {
       </div>
     );
   }
-  
   return (
     <div>
       <h1>Welcome to Docs.</h1>
